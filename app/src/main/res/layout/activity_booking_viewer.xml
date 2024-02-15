@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingViewer">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="128dp"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:text="Facility:"
+        app:layout_constraintBottom_toBottomOf="@+id/facilityNameTextView"
+        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="@+id/facilityNameTextView" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="128dp"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:text="Booking Number:"
+        app:layout_constraintBottom_toBottomOf="@+id/bookingNumTextView"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="@+id/bookingNumTextView" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="128dp"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:text="Cost:"
+        app:layout_constraintBottom_toBottomOf="@+id/bookingCostTextView"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/bookingCostTextView" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="128dp"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:text="Session Start time:"
+        app:layout_constraintBottom_toBottomOf="@+id/bookingStartTextView"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/bookingStartTextView" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="128dp"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:text="Session Finish time:"
+        app:layout_constraintBottom_toBottomOf="@+id/bookingFinishTextView"
+        app:layout_constraintEnd_toEndOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="@+id/bookingFinishTextView" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="253dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="79dp"
+        android:gravity="center"
+        android:text="Booking Information"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/facilityNameTextView"
+        android:layout_width="177dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/bookingNumTextView"
+        app:layout_constraintStart_toStartOf="@+id/bookingNumTextView"
+        app:layout_constraintTop_toBottomOf="@+id/bookingNumTextView" />
+
+    <TextView
+        android:id="@+id/bookingStartTextView"
+        android:layout_width="177dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/facilityNameTextView"
+        app:layout_constraintStart_toStartOf="@+id/facilityNameTextView"
+        app:layout_constraintTop_toBottomOf="@+id/facilityNameTextView" />
+
+    <TextView
+        android:id="@+id/bookingFinishTextView"
+        android:layout_width="177dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/bookingStartTextView"
+        app:layout_constraintStart_toStartOf="@+id/bookingStartTextView"
+        app:layout_constraintTop_toBottomOf="@+id/bookingStartTextView" />
+
+    <TextView
+        android:id="@+id/bookingCostTextView"
+        android:layout_width="177dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/bookingFinishTextView"
+        app:layout_constraintStart_toStartOf="@+id/bookingFinishTextView"
+        app:layout_constraintTop_toBottomOf="@+id/bookingFinishTextView" />
+
+    <TextView
+        android:id="@+id/bookingNumTextView"
+        android:layout_width="177dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="33dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+</androidx.constraintlayout.widget.ConstraintLayout>

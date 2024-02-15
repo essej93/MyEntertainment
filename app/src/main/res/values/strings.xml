@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">My Entertainment</string>
+    <string name="newBookingString">New Booking</string>
+    <string name="manageBookingString">Manage Booking</string>
+    <string name="submitBookingString">Submit Booking</string>
+    <string name="startTimeHint">Select Start Time</string>
+    <string name="finishTimeHint">Select Finish Time</string>
+    <string-array name="optionsMain">
+        <item>Bowling</item>
+        <item>Laser Arena</item>
+        <item>Internet &amp; Gaming Cafe</item>
+        <item>Karaoke</item>
+        <item>Magic Show</item>
+        <item>Rock Climbing</item>
+        <item>Kid Playland</item>
+    </string-array>
+
+    <string-array name="days_array">
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <string-array name="sessionTime_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="participantOrLane_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+</resources>
